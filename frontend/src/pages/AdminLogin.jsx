@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Lock, User } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://lvxzdjbtsazgaffxdmmk.supabase.co';
+const API_URL = import.meta.env.VITE_API_URL || 'https://lvxzdjbtsazgaffxdmmk.supabase.co/rest/v1/';
 
 export default function AdminLogin() {
   const [username, setUsername] = useState('');
