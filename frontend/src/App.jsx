@@ -21,7 +21,7 @@ export default function App() {
       </nav>
 
       <Routes>
-        <Route path="./pages/CustomerPOS" element={<CustomerPOS />} />
+        <Route path="/" element={<CustomerPOS />} />
         <Route path="./pages/AdminLogin" element={<AdminLogin />} />
         <Route path="./pages/AdminDashboard" element={<AdminDashboard />} />
       </Routes>
