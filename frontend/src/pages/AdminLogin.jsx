@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Lock, User } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost.vercel.app/';
+const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost-git-main-ariftsellerid.vercel.app/';
 
 export default function AdminLogin() {
   const [username, setUsername] = useState('');
