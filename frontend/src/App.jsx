@@ -14,7 +14,7 @@ export default function App() {
         </Link>
         <div className="flex gap-4 text-sm font-medium">
           <Link to="/" className="px-3 py-1.5 rounded-lg hover:bg-gray-800 transition">Katalog / Kasir</Link>
-          <Link to="./pages/AdminLogin" className="bg-blue-600 px-4 py-1.5 rounded-lg hover:bg-blue-700 transition flex items-center gap-1 shadow">
+          <Link to="/admin/login" className="bg-blue-600 px-4 py-1.5 rounded-lg hover:bg-blue-700 transition flex items-center gap-1 shadow">
             <ShieldCheck size={16} /> Admin Login
           </Link>
         </div>
