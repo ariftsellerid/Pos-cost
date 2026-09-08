@@ -3,7 +3,7 @@ import axios from 'axios';
 import { DollarSign, ShoppingBag, Plus, Trash2, LogOut, Package } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost.vercel.app/';
+const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost-git-main-ariftsellerid.vercel.app/';
 
 export default function AdminDashboard() {
   const [stats, setStats] = useState({ totalOrders: 0, totalRevenue: 0, recentOrders: [] });
