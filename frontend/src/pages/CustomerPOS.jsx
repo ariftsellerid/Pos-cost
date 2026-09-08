@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ShoppingCart, Plus, Minus, Trash2, CreditCard, RefreshCw } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost.vercel.app/';
+const API_URL = import.meta.env.VITE_API_URL || 'https://pos-cost-git-main-ariftsellerid.vercel.app/';
 
 export default function CustomerPOS() {
   const [products, setProducts] = useState([]);
