@@ -22,8 +22,8 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<CustomerPOS />} />
-        <Route path="./pages/AdminLogin" element={<AdminLogin />} />
-        <Route path="./pages/AdminDashboard" element={<AdminDashboard />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
       </Routes>
     </BrowserRouter>
   );
